@@ -114,6 +114,11 @@ body {
   margin-left: auto;
 }
 
+.card-details,
+.announcement-details {
+  color: #737373;
+}
+
 .card-link-icons {
   height: 1.5rem;
   padding: 0 .5rem 0 .5rem;
