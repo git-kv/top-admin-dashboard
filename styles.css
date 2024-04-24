@@ -93,7 +93,8 @@ body {
 }
 
 .card {
-  height: 200px;
+  min-height: 150px;
+  max-height: 250px;
   background-color: white;
   border-radius: 1rem;
   border-left: 0.75rem solid orange;
