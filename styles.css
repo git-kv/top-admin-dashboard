@@ -163,6 +163,7 @@ body {
   font-weight: bold;
 }
 
-.sidebar-2 {
-  margin-top: 100px;
+.sidebar-bottom,
+.sidebar-top {
+  margin-top: 2rem;
 }
