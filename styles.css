@@ -164,7 +164,7 @@ body {
   font-weight: bold;
 }
 
-li > img {
+.sidebar > ul > li > img {
   height: 1.5rem;
   vertical-align: middle;
   margin-right: 1.5rem;
