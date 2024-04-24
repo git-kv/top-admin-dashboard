@@ -71,8 +71,9 @@ body {
 .sidebar {
   grid-column: 1;
   grid-row: 1 / -1;
-  background: yellow;
-  padding: 1rem;
+  background: #0099ff;
+  padding: 1.5rem;
+  color: white;
 }
 
 .main-content {
@@ -163,7 +164,29 @@ body {
   font-weight: bold;
 }
 
-.sidebar-bottom,
-.sidebar-top {
-  margin-top: 2rem;
+li > img {
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+
+.sidebar-header > img {
+  height: 3rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.sidebar-top,
+.sidebar-bottom {
+  margin-top: 3rem;
+}
+
+.sidebar > ul > li {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sidebar-header {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
