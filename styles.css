@@ -81,7 +81,7 @@ body {
   grid-row: 2 / 3;
   background: blue;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .articles {
@@ -137,4 +137,20 @@ body {
 
 .extra-title {
   padding: 1rem 5px 1rem 5px;
+}
+
+.announcement,
+.trending-card {
+  margin: 1rem;
+}
+
+.announcement-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.article-title,
+.extra-title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
