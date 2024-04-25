@@ -117,7 +117,8 @@ body {
 }
 
 .card-details,
-.announcement-details {
+.announcement-details,
+.trending-project {
   color: #737373;
 }
 
@@ -153,7 +154,8 @@ body {
   margin: 2rem 1rem 2rem 1rem;
 }
 
-.announcement-title {
+.announcement-title,
+.trending-user {
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -189,4 +191,19 @@ body {
 .sidebar-header {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.trending-card {
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+.trending-details {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+}
+
+.trending-project {
+  margin-top: .5rem;
 }
