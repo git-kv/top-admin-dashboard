@@ -64,7 +64,6 @@ body {
 .header {
   grid-column: 2;
   grid-row: 1 / 2;
-  background: green;
   padding: 1rem 3rem 1rem 3rem;
   display: grid;
   grid-template-columns: auto min-content;
@@ -89,10 +88,16 @@ body {
   height: 3rem;
 }
 
+.profile-pic-large {
+  height: 4rem;
+}
+
 .search-bar {
   width: 95%;
   background-color: #cccccc;
   border-radius: 1.5rem;
+  height: 1.5rem;
+  border: none;
 }
 
 .search > img {
@@ -105,6 +110,16 @@ body {
   display: grid;
   grid-template-columns: 2rem auto;
   align-items: center;
+}
+
+.welcome-msg {
+  font-weight: bold;
+}
+
+.welcome-usr {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .sidebar {
@@ -127,6 +142,7 @@ body {
   border-radius: 1rem;
   color: white;
   background-color: #0099ff;
+  border: none;
 }
 
 .main-content {
@@ -247,17 +263,20 @@ body {
   font-weight: bold;
 }
 
-.trending-card {
+.trending-card,
+.welcome-card {
   display: grid;
   grid-template-columns: min-content auto;
 }
 
-.trending-details {
+.trending-details,
+.welcome-details {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 1rem;
 }
 
-.trending-project {
+.trending-project
+.welcome-usr {
   margin-top: .5rem;
 }
