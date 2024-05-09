@@ -65,13 +65,31 @@ body {
   grid-column: 2;
   grid-row: 1 / 2;
   background: green;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+}
+
+.profile-info {
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.notifications {
+  height: 1.5rem;
+}
+
+.profile-pic {
+  height: 3rem;
 }
 
 .search-bar {
-  width: 70%;
+  width: 80%;
   background-color: #cccccc;
   border-radius: 1.5rem;
 }
@@ -80,6 +98,12 @@ body {
   height: 1.5rem;
   vertical-align: middle;
   margin-right: 0.5rem;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  align-items: center;
 }
 
 .sidebar {
