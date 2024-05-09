@@ -66,6 +66,20 @@ body {
   grid-row: 1 / 2;
   background: green;
   padding: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.search-bar {
+  width: 70%;
+  background-color: #cccccc;
+  border-radius: 1.5rem;
+}
+
+.search > img {
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
 }
 
 .sidebar {
